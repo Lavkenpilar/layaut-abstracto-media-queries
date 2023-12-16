@@ -1,0 +1,37 @@
+
+nav  {    
+    grid-area: a;
+    background-image: url("../imgs/atardecer.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+menu {
+   grid-area: b;
+   background-image: url("../imgs/paisaje-rosa.avif");
+   background-position: center;
+   background-size: cover;
+}
+main {
+    
+    grid-area: c;
+   background-image: url("../imgs/cerezo.jpg");
+   background-position: center;
+    background-size: cover;
+}
+ footer {
+   grid-area: d;
+   background-image: url("../imgs/nieve.jpg");
+   background-position: center;
+   background-size: cover;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 30vh 30vh 40vh;
+    grid-template-areas: 
+    'a b'
+    'c c'
+    'd d' 
+    }

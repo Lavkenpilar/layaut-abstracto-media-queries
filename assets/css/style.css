@@ -35,3 +35,11 @@ body {
     'c c'
     'd d' 
     }
+@media (min-width:768px){
+    body{
+        grid-template-areas: 
+        'a a'
+        'b c'
+        'd d' 
+    }
+}
